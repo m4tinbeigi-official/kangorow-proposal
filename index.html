@@ -52,6 +52,9 @@
             backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.08);
         }
+        .table-custom tr {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
     </style>
 </head>
 <body class="antialiased selection:bg-amber-500 selection:text-black">
@@ -77,9 +80,13 @@
                             <i class="fa-solid fa-list-check"></i>
                             <span>مشاهده سناریوها و پلن محتوایی</span>
                         </a>
-                        <a href="#contact" class="px-6 py-3.5 rounded-xl bg-gray-800/80 hover:bg-gray-700 text-white font-semibold transition border border-gray-700 flex items-center gap-2">
-                            <i class="fa-solid fa-envelope text-amber-400"></i>
-                            <span>ارتباط و هماهنگی رسمی</span>
+                        <a href="#official-tariffs" class="px-6 py-3.5 rounded-xl bg-gray-800/80 hover:bg-gray-700 text-white font-semibold transition border border-gray-700 flex items-center gap-2">
+                            <i class="fa-solid fa-tags text-amber-400"></i>
+                            <span>تعرفه‌های رسمی تبلیغات</span>
+                        </a>
+                        <a href="#contact" class="px-6 py-3.5 rounded-xl bg-amber-500/10 hover:bg-amber-500/20 text-amber-400 font-semibold transition border border-amber-500/30 flex items-center gap-2">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>ارتباط و هماهنگی</span>
                         </a>
                     </div>
                 </div>
@@ -203,61 +210,128 @@
         </div>
     </section>
 
-    <!-- Campaign Comparison / Benchmark -->
-    <section class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
-        <div class="text-center max-w-2xl mx-auto mb-12">
-            <h2 class="text-3xl font-extrabold text-white mb-3">مزیت استراتژیک کمپین جامع ۱۰ قسمتی</h2>
-            <p class="text-gray-400 text-sm">مقایسه کمپین بلندمدت در برابر سفارش‌های تبلیغات تک‌پستی متفرقه</p>
+    <!-- Official Advertising Tariffs Section (From ads.html) -->
+    <section id="official-tariffs" class="py-16 max-w-6xl mx-auto px-4 sm:px-6">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
+            <div>
+                <span class="text-amber-400 text-sm font-bold uppercase tracking-wider">Official Pricing & Packages</span>
+                <h2 class="text-3xl font-extrabold text-white mt-1">تعرفه‌های رسمی تبلیغات در کانگورو</h2>
+            </div>
+            <a href="https://kangorow.github.io/kangorow-link-in-bio/ads.html" target="_blank" class="text-xs text-amber-400 hover:underline flex items-center gap-1 font-semibold">
+                <span>مشاهده صفحه تعرفه‌ها در بیو کانگورو</span>
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-            <!-- Single Post Approach -->
-            <div class="glass-panel p-8 rounded-3xl border border-gray-800">
-                <div class="flex items-center justify-between mb-4">
-                    <span class="px-3 py-1 rounded-full bg-gray-800 text-gray-400 text-xs font-semibold">تبلیغات تکی (تعرفه عادی)</span>
-                    <i class="fa-solid fa-file-invoice text-gray-500 text-xl"></i>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- Instagram Story Tariffs -->
+            <div class="glass-panel p-6 sm:p-8 rounded-3xl border border-gray-800">
+                <div class="flex items-center gap-3 mb-6">
+                    <div class="w-10 h-10 rounded-xl bg-pink-500/20 text-pink-400 flex items-center justify-center text-lg">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white">تعرفه‌های اینستاگرام — استوری</h3>
+                        <p class="text-xs text-gray-400">پلن‌های متنوع انتشار در استوری پیج</p>
+                    </div>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-3">پست‌های تکی بدون تکرار برند</h3>
-                <ul class="space-y-3 text-sm text-gray-400 mb-6">
-                    <li class="flex items-center gap-2">
-                        <i class="fa-solid fa-circle-xmark text-red-400"></i>
-                        <span>تعرفه رسمی تک‌پست: ۳۰ تا ۴۰ میلیون تومان برای یک ویدیو</span>
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-solid fa-circle-xmark text-red-400"></i>
-                        <span>حضور موقت در ذهن مخاطب و عدم تثبیت هویت برند</span>
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-solid fa-circle-xmark text-red-400"></i>
-                        <span>هزینه تمام‌شده بالاتر به ازای هر بازدید مستمر</span>
-                    </li>
-                </ul>
+
+                <div class="space-y-4">
+                    <div class="p-4 rounded-xl bg-gray-950/60 border border-gray-800 flex justify-between items-center">
+                        <div>
+                            <div class="font-bold text-white text-sm">تک استوری بنر</div>
+                            <div class="text-xs text-gray-400 mt-0.5">(هر استوری بیشتر، ۱ میلیون تومان اضافه می‌شود)</div>
+                        </div>
+                        <div class="text-amber-400 font-extrabold text-base">۵,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-gray-950/60 border border-gray-800 flex justify-between items-center">
+                        <div>
+                            <div class="font-bold text-white text-sm">تک استوری معرفی خدمات (سایت و اپ)</div>
+                            <div class="text-xs text-gray-400 mt-0.5">(هر استوری بیشتر، ۱ میلیون تومان اضافه می‌شود)</div>
+                        </div>
+                        <div class="text-amber-400 font-extrabold text-base">۸,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-gray-950/60 border border-gray-800 flex justify-between items-center">
+                        <div>
+                            <div class="font-bold text-white text-sm">تک استوری بنر + تک استوری معرفی خدمات</div>
+                            <div class="text-xs text-gray-400 mt-0.5">(ترکیبی - هر استوری بیشتر، ۱ میلیون اضافه)</div>
+                        </div>
+                        <div class="text-amber-400 font-extrabold text-base">۱۰,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-gray-950/60 border border-gray-800 flex justify-between items-center">
+                        <div>
+                            <div class="font-bold text-white text-sm">استوری سریالی معرفی خدمات</div>
+                            <div class="text-xs text-gray-400 mt-0.5">پکیج چندمرحله‌ای سایت و اپ</div>
+                        </div>
+                        <div class="text-amber-400 font-extrabold text-base">۱۲,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-gray-950/60 border border-gray-800 flex justify-between items-center">
+                        <div>
+                            <div class="font-bold text-white text-sm">استوری حضوری (پایه)</div>
+                            <div class="text-xs text-gray-400 mt-0.5">همراه با سناریو + فیلم‌برداری و ادیت پایه</div>
+                        </div>
+                        <div class="text-amber-400 font-extrabold text-base">۱۵,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                    </div>
+
+                    <div class="p-4 rounded-xl bg-gray-950/60 border border-gray-800 flex justify-between items-center">
+                        <div>
+                            <div class="font-bold text-white text-sm">استوری حضوری (حرفه‌ای)</div>
+                            <div class="text-xs text-gray-400 mt-0.5">همراه با سناریو + فیلم‌برداری حرفه‌ای و ادیت کامل</div>
+                        </div>
+                        <div class="text-amber-400 font-extrabold text-base">۲۰,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                    </div>
+                </div>
             </div>
 
-            <!-- 10-Reels Campaign (The Offer) -->
-            <div class="glass-panel p-8 rounded-3xl border-2 border-amber-500 glow-gold bg-gray-900 relative">
-                <div class="absolute -top-3.5 right-6 px-3.5 py-1 rounded-full bg-amber-500 text-black text-xs font-black">
-                    پیشنهاد ویژه این پروپوزال
+            <!-- Instagram Post Tariffs -->
+            <div class="glass-panel p-6 sm:p-8 rounded-3xl border border-gray-800 flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-lg">
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold text-white">تعرفه‌های اینستاگرام — پست (ریلز)</h3>
+                            <p class="text-xs text-gray-400">تولید محتوای ویدیویی اختصاصی در پیج کانگورو</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 mb-6">
+                        <div class="p-5 rounded-2xl bg-gray-950/70 border border-gray-800">
+                            <div class="flex justify-between items-start mb-2">
+                                <h4 class="font-bold text-white text-base">پست معرفی خدمات (سایت / اپ)</h4>
+                                <div class="text-amber-400 font-black text-lg">۳۰,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                            </div>
+                            <p class="text-xs text-gray-400 leading-relaxed">
+                                یک ویدیو با موضوع مرتبط با خدمات در قالب ویدیوهای فعلی پیج کانگورو تهیه می‌شود. پس از تأیید سناریو، ویدیو به صورت اسپانسری داخل پیج منتشر خواهد شد.
+                            </p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl bg-gray-950/70 border border-gray-800">
+                            <div class="flex justify-between items-start mb-2">
+                                <h4 class="font-bold text-white text-base">پست معرفی خدمات به صورت حضوری</h4>
+                                <div class="text-amber-400 font-black text-lg">۴۰,۰۰۰,۰۰۰ <span class="text-xs text-gray-400">تومان</span></div>
+                            </div>
+                            <p class="text-xs text-gray-400 leading-relaxed">
+                                ضبط ویدیو در لوکیشن اختصاصی شما در قالب سبک ویدیویی کانگورو پس از تایید سناریو. (هزینه اقامت و سفر در صورت بعد مسافت بر عهده کارفرما).
+                            </p>
+                        </div>
+                    </div>
                 </div>
-                <div class="flex items-center justify-between mb-4">
-                    <span class="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-semibold">کمپین ۱۰ قسمتی اختصاصی</span>
-                    <i class="fa-solid fa-award text-amber-400 text-xl"></i>
+
+                <!-- Terms badge -->
+                <div class="p-4 rounded-xl bg-amber-500/5 border border-amber-500/20 text-xs text-gray-300 space-y-1.5">
+                    <div class="flex items-center gap-2 text-amber-400 font-bold">
+                        <i class="fa-solid fa-circle-info"></i>
+                        <span>شرایط و ضوابط تعرفه‌ها:</span>
+                    </div>
+                    <div>• <strong>همکاری با برند (Collaboration):</strong> ۵ میلیون تومان به مبالغ بالا اضافه می‌شود.</div>
+                    <div>• <strong>تبلیغات مجموعه‌های مالی:</strong> شامل ۵۰٪ افزایش تعرفه مصوب می‌باشد.</div>
                 </div>
-                <h3 class="text-xl font-bold text-white mb-3">حضور مستمر و ماندگاری عمیق برند</h3>
-                <ul class="space-y-3 text-sm text-gray-300 mb-6">
-                    <li class="flex items-center gap-2">
-                        <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                        <span>۱۰ ویدیوی اختصاصی با سناریونویسی منطبق بر ماهیت محصول</span>
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                        <span>پوشش چندوجهی در اینستاگرام و کانال تلگرام (@kangorow)</span>
-                    </li>
-                    <li class="flex items-center gap-2">
-                        <i class="fa-solid fa-circle-check text-emerald-400"></i>
-                        <span>بهینه‌سازی حداکثری بودجه تبلیغاتی برند در مقایسه با تک‌پست‌ها</span>
-                    </li>
-                </ul>
             </div>
         </div>
     </section>
@@ -437,14 +511,14 @@
             </div>
             <h2 class="text-3xl font-black text-white mb-3">هماهنگی و شروع همکاری</h2>
             <p class="text-gray-400 text-sm sm:text-base max-w-xl mx-auto mb-8 leading-relaxed">
-                جهت دریافت برآورد جزئیات اجرایی، رزرو بازه‌های انتشار و هماهنگی جلسه سناریونویسی، لطفاً از طریق ایمیل زیر در ارتباط باشید.
+                جهت دریافت برآورد جزئیات اجرایی کمپین اختصاصی، رزرو بازه‌های انتشار و هماهنگی جلسه سناریونویسی، لطفاً از طریق ایمیل در ارتباط باشید.
             </p>
             <div class="inline-flex flex-col sm:flex-row items-center gap-4 bg-gray-950 p-3 sm:px-6 sm:py-4 rounded-2xl border border-gray-800">
                 <div class="flex items-center gap-3 text-white font-mono text-base sm:text-lg">
                     <i class="fa-solid fa-envelope text-amber-400"></i>
-                    <span>matinbeigi.work@gmail.com</span>
+                    <span>m4tinbeigi@gmail.com</span>
                 </div>
-                <a href="mailto:matinbeigi.work@gmail.com" class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-bold text-sm transition">
+                <a href="mailto:m4tinbeigi@gmail.com" class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black font-bold text-sm transition">
                     ارسال ایمیل
                 </a>
             </div>
